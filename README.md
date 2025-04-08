@@ -30,3 +30,14 @@ This project demonstrates the process of loading bitstream images (SOF files) on
 ## Visual Demonstration
 
 The demo includes two images (SOF files) that can be loaded into the FPGA through the Windows interface. These images are verified by the FPGA, which checks their digital signatures before executing the bitstream.
+
+## Technologies Used
+
+- **Intel Agilex 5 FPGA**
+- **Windows** (for the demo application)
+- **Secure Boot** (for verifying the integrity of the FPGA image)
+- **Intel Quartus Prime** (for FPGA programming, if necessary)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
